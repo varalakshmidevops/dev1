@@ -1,0 +1,52 @@
+                         JENKINS
+
+          jenkins is java application so it is platform independentent.jenkins is used for contionues integration and continuous deployment.
+                     
+                        DOWNLOAD JENKINS
+      
+         go to browser and search jenkins then click download
+         after you will find 2 opctions 1)LTS release
+                                        2)weekly release
+          and go 1st opcton then find windows it will download automatiically.
+           go to downloads find the jenkins then instal after nest,nest then it is ased finish click it the is automatically go to browser it will ask password take direction paste it in pc it will show inisialadmin password  paste it in browser .click continue it ask user name,password ,conform password,fullname,email adrees after click save and finish.
+                 start using jenkins
+     for opening browser localhost:8080
+
+                      
+                             PROCESS 
+
+HOW TO CREATE USERS AND MANAGE AND ASSIGN ROLES:
+
+AFTER LOGIN ADMIN USER
+
+CREATE NEW USER:::::::------
+    
+              go to manage jenkins,click on create user
+                then it will ask          username,password,conformpassword,fullname,email adress then submitr
+
+CONFIGURE USERS:::----
+      go to configure
+     here we can change username,password,api token here     then apply and save
+
+
+HOW TO MANAGE ROLES::::----WE have plugin called role strategy
+
+
+for instal role strategy
+           go to manage jenkins,find manage plugin,here we have diifferent sections that is updates,available,instaled,advanced.
+                  under this go to availables
+               search role based authentication strategy if not in available then it is already instaled.if there then instal .here we get two opctions we want select any ne .am selecting instal witout restart.
+         go to manage jenkins  select configure global security.
+select enable security and select "role based strategy".role based strategy is available after installed.now apply and save.
+
+
+    go to manage jenkins under this manage and assign roles this only showed after selecting the role based strategy.
+   thre are there opctions 1)manage roles
+                           2)assign roles
+                           3}role strategy macro
+         go to 1st one manage role
+                                  there 3
+                                        1)global roles
+                                        2)project roles
+                                        3)slave roles
+   global roles means autherization and access  global
